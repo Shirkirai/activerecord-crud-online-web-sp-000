@@ -72,7 +72,7 @@ def can_be_found_updated_and_saved
   Movie.create(title: "Awesome Flick")
   movie = Movie.update(title: "Even Awesome Flick")
   movie.save
-  puts Movie.title
+  movie.title
   __
 end
 
